@@ -10,8 +10,7 @@ const nextConfigProd = {
   output: 'export',
   basePath: '/portfolio',
   images: {
-    loader: 'custom',
-    loaderFile: './src/lib/image.loader.js',
+    unoptimized: true,
   },
 };
 
